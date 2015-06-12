@@ -24,9 +24,9 @@ class Webgrind_Config extends Webgrind_MasterConfig {
 	*/
 	static $preprocessedSuffix = '.webgrind';
 	
-	static $defaultTimezone = 'Europe/Copenhagen';
+	static $defaultTimezone = 'America/New_York';
 	static $dateFormat = 'Y-m-d H:i:s';
-	static $defaultCostformat = 'percent'; // 'percent', 'usec' or 'msec'
+	static $defaultCostformat = 'msec'; // 'percent', 'usec' or 'msec'
 	static $defaultFunctionPercentage = 90;
 	static $defaultHideInternalFunctions = false;
 
